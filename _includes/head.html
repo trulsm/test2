@@ -1,3 +1,23 @@
+{% if page.title %}
+  <title>{{ page.title }} | Boligspekulanten</title>
+{% else %}
+  <title>Boligspekulanten</title>
+{% endif %}
+{% if.page.description %}
+  <meta name="description" content="{{ page.description }}">
+{% else %}
+  <meta name="description" content="This is a dangerous site">
+{% endif %}
 <link rel="stylesheet" href="/css/main.css">
+<link href="https://fonts.googleapis.com/css?family=Economica|Permanent+Marker|Raleway:100&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/fonts/css/fontawesome.css">
+<link rel="stylesheet" href="/fonts/css/brands.css">
+
+<link rel="stylesheet" href="/css/login.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-backstretch/2.0.4/jquery.backstretch.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flexslider/2.6.2/flexslider.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/flexslider/2.6.2/jquery.flexslider.js"></script>
 <meta charset="utf-8">
-<title>{{page.title}}</title>
